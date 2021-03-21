@@ -73,7 +73,7 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/kst/2.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'EGG to Harvest')}</Label>
+          <Label>{TranslateString(544, 'KST to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
           <Label>~${(kstPrice * earningsSum).toFixed(2)}</Label>
         </Block>
